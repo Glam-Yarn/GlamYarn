@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MintStripe - Glam Yarn</title>
+    <link rel="stylesheet" href="product6.css">
+</head>
+<body>
+    <header>
+        <h1>MintStripe</h1>
+    </header>
+    <main>
+        <div class="product-details">
+            <img src="image/bag15.jpg" alt="MintStripe">
+            <h2>MintStripe</h2>
+            <p>650 da</p>
+            <form id="order-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="article-name">Article Name:</label>
+                <input type="text" id="article-name" name="article-name" value="MintStripe" required>
+                
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" value="650" required>
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="domicile">Domicile</option>
+                    <option value="bureau">Bureau</option>
+                </select>
+                
+                <input type="hidden" name="product" value="MintStripe">
+                <button type="submit">Complete Purchase</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Glam Yarn. All rights reserved.</p>
+    </footer>
+    <script src="product6.js"></script>
+</body>
+</html>
+

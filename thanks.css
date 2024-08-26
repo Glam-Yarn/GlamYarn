@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f7f8; /* Soft beige */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5c6c6; /* Soft pink */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #6a1b2d; /* Dark pink */
+    font-size: 28px;
+}
+
+.thank-you-message {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.thank-you-message p {
+    color: #6a1b2d; /* Dark pink */
+    font-size: 18px;
+}
+
+footer {
+    background-color: #6a1b2d; /* Dark pink */
+    text-align: center;
+    padding: 20px;
+    color: #f9f7f8; /* Soft beige */
+}

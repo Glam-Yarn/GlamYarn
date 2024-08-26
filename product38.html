@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margaret Case - Glam Yarn</title>
+    <link rel="stylesheet" href="product6.css">
+</head>
+<body>
+    <header>
+        <h1>Margaret Case</h1>
+    </header>
+    <main>
+        <div class="product-details">
+            <img src="image/air 12.jpg" alt="Margaret Case">
+            <h2>Margaret</h2>
+            <p>250 da</p>
+            <form id="order-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="article-name">Article Name:</label>
+                <input type="text" id="article-name" name="article-name" value="Margaret Case" readonly>
+                
+                <label for="color">Color:</label>
+                <select id="color" name="color" required>
+                    <option value="">Select color</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="yellow">Yellow</option>
+                    <!-- Add more color options as needed -->
+                </select>
+                
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price" value="250 da" readonly>
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="domicile">Domicile</option>
+                    <option value="bureau">Bureau</option>
+                </select>
+                
+                <input type="hidden" name="product" value="Margaret Case">
+                <button type="submit">Complete Purchase</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Glam Yarn. All rights reserved.</p>
+    </footer>
+    <script src="product6.js"></script>
+</body>
+</html>

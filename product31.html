@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmaid LaptopCover - Glam Yarn</title>
+    <link rel="stylesheet" href="product6.css">
+</head>
+<body>
+    <header>
+        <h1>Marmaid LaptopCover</h1>
+    </header>
+    <main>
+        <div class="product-details">
+            <img src="image/cute5.jpg" alt="Marmaid LaptopCover">
+            <h2>MarmaidCover</h2>
+            <p>Select your laptop size to see the price.</p>
+            <form id="order-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="article-name">Article Name:</label>
+                <input type="text" id="article-name" name="article-name" value="Marmaid LaptopCover" required>
+                
+                <label for="size">How many inches is your laptop?:</label>
+                <select id="size" name="size" required>
+                    <option value="">Select size</option>
+                    <option value="14">14 inches</option>
+                    <option value="15.6">15.6 inches</option>
+                    <option value="17">17 inches</option>
+                </select>
+                
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price" readonly>
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="domicile">Domicile</option>
+                    <option value="bureau">Bureau</option>
+                </select>
+                
+                <input type="hidden" name="product" value="Marmaid LaptopCover">
+                <button type="submit">Complete Purchase</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Glam Yarn. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('size').addEventListener('change', function() {
+            const size = this.value;
+            const priceInput = document.getElementById('price');
+
+            if (size === '14') {
+                priceInput.value = '1800 da';
+            } else if (size === '15.6') {
+                priceInput.value = '1900 da';
+            } else if (size === '17') {
+                priceInput.value = '2000 da';
+            } else {
+                priceInput.value = '';
+            }
+        });
+    </script>
+</body>
+</html>

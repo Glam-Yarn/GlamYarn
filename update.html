@@ -1,0 +1,17 @@
+<form action="send_email.php" method="post">
+    <input type="hidden" name="product" value="Product 1"> <!-- Set the product name dynamically -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" required>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <label for="payment">Payment Method:</label>
+    <select id="payment" name="payment">
+        <option value="credit">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="domicile">Domicile</option>
+        <option value="bureau">Bureau</option>
+    </select>
+    <button type="submit">Complete Purchase</button>
+</form>

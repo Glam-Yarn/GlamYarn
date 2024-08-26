@@ -1,0 +1,73 @@
+body {
+    background-color: #fbe8e8; /* Soft pink */
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #671933; /* Dark pink */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.product-details img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-details h2 {
+    margin: 10px 0;
+}
+
+.product-details p {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.product-details form {
+    margin-top: 20px;
+}
+
+.product-details form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.product-details form input,
+.product-details form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.product-details form button {
+    background-color: #5d132b; /* Dark pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
